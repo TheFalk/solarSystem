@@ -1,0 +1,17 @@
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/UnityEngine.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/UnityEditor.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Mono.Cecil.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Unity.DataContract.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/harshitsaxena/SolarSystem/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/harshitsaxena/SolarSystem/obj/Debug/Assembly-CSharp.dll
+/Users/harshitsaxena/SolarSystem/obj/Debug/Assembly-CSharp.dll.mdb

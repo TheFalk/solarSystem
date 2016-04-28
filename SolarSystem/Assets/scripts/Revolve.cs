@@ -12,12 +12,10 @@ public class Revolve : MonoBehaviour {
 	float[] radius;
 	float angle;
 	int numPoints=500;
-	LineRenderer lineRenderer;
 	//float[] initialx,initialz;
 
 	// Use this for initialization
 	void Start () {
-		lineRenderer= gameObject.GetComponent<LineRenderer>();
 		int len = transform.childCount;
 		x=new float[len];
 		z=new float[len];
@@ -33,12 +31,7 @@ public class Revolve : MonoBehaviour {
 		//lineRenderer.useWorldSpace =false;
 		//lineRenderer.transform.position =new Vector3(500, 0, 0);
 		for (int i=0; i < len; i++) {
-			LineRenderer ld = planets [i].gameObject.AddComponent<LineRenderer> ();
-			ld.SetWidth (.5f,.5f);
-			Material mat = new Material(Shader.Find("Unlit/Texture"));
-			ld.material = mat;
-			ld.SetColors (Color.white, Color.white);
-			ld.SetVertexCount (numPoints);
+			
 			radius[i]=Vector3.Distance(transform.position,planets[i].transform.position);
 			int j = 0;
 			Debug.Log (radius[i]+"d"+planets[i].transform.position);
@@ -46,7 +39,6 @@ public class Revolve : MonoBehaviour {
 			{
 				// Set the position of this point
 				Vector3 pos = new Vector3((radius[i]) * Mathf.Cos(theta), 0, (radius[i]) * Mathf.Sin(theta));
-				ld.SetPosition(j, pos);
 				j++;
 			}
 		}
@@ -63,7 +55,7 @@ public class Revolve : MonoBehaviour {
 			//x[i] = Mathf.Sin (radians[i]) * b[i];
 			z[i] = Mathf.Cos (radians[i]) * radius[i];
 			x[i] = Mathf.Sin (radians[i]) * radius[i];
-			planets[i].transform.position = new Vector3 (x[i], planets[i].transform.localPosition.y, z[i]);
+			planets[i].transform.position = new Vector3 (x[i], planets[i].transform.position.y, z[i]);
 			//Debug.Log (radians[i]+" "+planets[i]+speed[i]);
 			planets[i].transform.rotation = Quaternion.Euler(planets[i].transform.rotation.x, angle*speed[i]*10f, planets[i].transform.rotation.z);
 

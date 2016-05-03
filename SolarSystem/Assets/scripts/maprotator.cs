@@ -37,6 +37,7 @@ public class maprotator : MonoBehaviour {
 		confirm.GetComponent<confirm> ().x = 0;
 		x = 2;
 		confirm.SetActive (false);
+		text.SetActive (false);
 	}
 
 }

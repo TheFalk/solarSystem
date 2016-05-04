@@ -24,3 +24,29 @@ ExportedObj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+*.dll
+
+*.backup
+
+*.mdb
+
+SolarSystem/Temp/UnityTempFile-01264fc394b434d1ba1ea8bac8964e58
+
+SolarSystem/Temp/UnityTempFile-3f5a6bc868600460b8c0b85ead66e584
+
+*.backup
+
+SolarSystem/Temp/__Backupscenes/0.backup
+
+SolarSystem/Temp/UnityTempFile-6f6365a15d0e24a77a8a455d64a256b9
+
+SolarSystem/Temp/UnityTempFile-7870834b4d96445c19cb553019282c60
+
+SolarSystem/Temp/UnityTempFile-ac708a39fb3b2470cbb8e04961744fc1
+
+SolarSystem/Temp/UnityTempFile-d15441c526ed149d2bff7c94f764b740
+
+SolarSystem/Temp/UnityTempFile-e36ffd6af29084b0a95591a5b635be45
+
+SolarSystem/Temp/UnityTempFile-ee56d8515b5f6419d9bf905cc4e7eea3

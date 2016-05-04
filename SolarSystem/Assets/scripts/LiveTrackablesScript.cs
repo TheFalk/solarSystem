@@ -13,7 +13,7 @@ public class LiveTrackablesScript : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
         gameCamera.SetActive(false);

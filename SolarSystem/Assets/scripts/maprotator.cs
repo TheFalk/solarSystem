@@ -4,6 +4,9 @@ using System.Collections;
 public class maprotator : MonoBehaviour {
 	public GameObject confirm;
 	public GameObject text;
+	public GameObject other;
+	public GameObject other1;
+	public GameObject other2;
 	float sDistance;
 	float pDistance;
 	public float ratio;
@@ -30,7 +33,8 @@ public class maprotator : MonoBehaviour {
 	public void selection(){
 		x = 1;
 		confirm.SetActive(true);
-		//confirm.reset ();
+		//confirm.GetComponent<confirm> ().reset;
+		//reset();
 		text.SetActive(true);
 	}
 	public void confirmed(){
@@ -39,5 +43,9 @@ public class maprotator : MonoBehaviour {
 		confirm.SetActive (false);
 		text.SetActive (false);
 	}
+
+	//void reset(){
+		//other.GetComponent<maprotator>().
+	//}
 
 }

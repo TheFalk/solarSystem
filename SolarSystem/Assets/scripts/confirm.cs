@@ -17,4 +17,8 @@ public class confirm : MonoBehaviour {
 		x = 1;
 		target.GetComponent<maprotator> ().confirmed ();
 	}
+
+	public void reset(GameObject target){
+
+	}
 }
